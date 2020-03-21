@@ -1,0 +1,199 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background: #e53935;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e53935, #e35d5b);
+    background: linear-gradient(to right, #e53935, #e35d5b);
+    color: white;
+    height: 620px;
+}
+
+.navbar {
+    padding: 0;
+    margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-item {
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+.nav-item::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 34px;
+    position: absolute;
+    right: 10px;
+    background-color: white;
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+
+.nav-item:hover::before {
+    opacity: 1;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.heading-text {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+
+.dwnld-btn {
+    margin-right: 0.5rem;
+}
+
+.container-fluid {
+    padding: 3% 10%;
+}
+
+.title-img {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 20%;
+}
+
+
+/* .hero-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+} */
+
+#features {
+    padding: 8% 10%;
+    background-color: white;
+    /* we don't need a z-index make the div sit on top if it has a position of relative */
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature-div {
+    padding: 2.5%;
+    text-align: center;
+}
+
+.icon {
+    font-size: 3rem;
+    color: #e53935;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+#testimonials {
+    padding: 8% 0;
+    text-align: center;
+    background: #e53935;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e53935, #e35d5b);
+    background: linear-gradient(to right, #e53935, #e35d5b);
+    color: white;
+}
+
+.carousel-item {
+    padding: 0 15%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px 20px 0 20px;
+}
+
+em {
+    font-weight: 500;
+}
+
+#press {
+    background: #e53935;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e53935, #e35d5b);
+    background: linear-gradient(to right, #e53935, #e35d5b);
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 0 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.press-img:hover {
+    transform: scale(0.97);
+}
+
+#pricing {
+    padding: 8% 10%;
+}
+
+p {
+    text-align: center;
+}
+
+.card-cont {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h4 {
+    font-weight: 600;
+}
+
+.list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.pricing-card-title {
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.sign-up-btn {
+    margin-top: 30px;
+}
