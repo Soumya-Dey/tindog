@@ -23,13 +23,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#footer">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="#pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Download</a>
+                            <a class="nav-link" href="#cta">Download</a>
                         </li>
                     </ul>
                 </div>
@@ -124,11 +124,11 @@
     <!-- Pricing -->
     <section id="pricing">
 
-        <h2>A Plan for Every Dog's Needs</h2>
+        <h2 class="pricing-heading">A Plan for Every Dog's Needs</h2>
         <p>Simple and affordable price plans for you and your dog.</p>
 
         <div class="row card-cont">
-            <div class="col col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6">
                 <div class="card mb-4 box-shadow">
                     <div class="card-header">
                         <h4 class="my-0">Chihuahua</h4>
@@ -136,16 +136,16 @@
                     <div class="card-body">
                         <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>5 Matches Per Day</li>
-                            <li>10 Messages Per Day</li>
-                            <li>Unlimited App Usage</li>
-                            <li>Help center access</li>
+                            <li class="pricing-list-item">5 Matches Per Day</li>
+                            <li class="pricing-list-item">10 Messages Per Day</li>
+                            <li class="pricing-list-item">Unlimited App Usage</li>
+                            <li class="pricing-list-item">Help center access</li>
                         </ul>
                         <button type="button" class="btn btn-lg btn-block btn-outline-dark sign-up-btn">Sign up</button>
                     </div>
                 </div>
             </div>
-            <div class="col col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6">
                 <div class="card mb-4 box-shadow premium-card">
                     <div class="card-header">
                         <h4 class="my-0">Labrador</h4>
@@ -153,16 +153,16 @@
                     <div class="card-body">
                         <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>Unlimited Matches</li>
-                            <li>Unlimited Messages</li>
-                            <li>Unlimited App Usage</li>
-                            <li>Help center access</li>
+                            <li class="pricing-list-item">Unlimited Matches</li>
+                            <li class="pricing-list-item">Unlimited Messages</li>
+                            <li class="pricing-list-item">Unlimited App Usage</li>
+                            <li class="pricing-list-item">Help center access</li>
                         </ul>
                         <button type="button" class="btn btn-lg btn-block btn-dark sign-up-btn">Sign up</button>
                     </div>
                 </div>
             </div>
-            <div class="col col-lg-4 col-md-12 col-sm-12">
+            <div class="col-lg-4">
                 <div class="card mb-4 box-shadow">
                     <div class="card-header">
                         <h4 class="my-0">Mastiff</h4>
@@ -170,11 +170,11 @@
                     <div class="card-body">
                         <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
                         <ul class="list-unstyled mt-3 mb-4">
-                            <li>Pirority Listing</li>
-                            <li>Unlimited Matches</li>
-                            <li>Unlimited Messages</li>
-                            <li>Unlimited App Usage</li>
-                            <li>Help center access</li>
+                            <li class="pricing-list-item">Pirority Listing</li>
+                            <li class="pricing-list-item">Unlimited Matches</li>
+                            <li class="pricing-list-item">Unlimited Messages</li>
+                            <li class="pricing-list-item">Unlimited App Usage</li>
+                            <li class="pricing-list-item">Help center access</li>
                         </ul>
                         <button type="button" class="btn btn-lg btn-block btn-dark sign-up-btn">Sign up</button>
                     </div>
@@ -188,9 +188,12 @@
     <!-- Call to Action -->
     <section id="cta">
 
-        <h3>Find the True Love of Your Dog's Life Today.</h3>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <h3 class="cta-heading">Find the True Love of Your Dog's Life Today.</h3>
+        <button class="btn btn-lg btn-dark dwnld-btn" type="button"><i class="fab fa-apple"></i>
+            &nbsp;Download</button>
+        <button class="btn btn-lg btn-light dwnld-btn" type="button"><i
+                class="fab fa-google-play"></i>
+            &nbsp;Download</button>
 
     </section>
 
@@ -198,7 +201,13 @@
     <!-- Footer -->
     <footer id="footer">
 
-        <p>© Copyright 2018 TinDog</p>
+        <div class="social-icons">
+            <a href="" class="social-link"><i class="fab fa-twitter social-icon"></i></a>
+            <a href="" class="social-link"><i class="fab fa-facebook-f social-icon"></i></a>
+            <a href="" class="social-link"><i class="fab fa-instagram social-icon"></i></a>
+            <a href="" class="social-link"><i class="fas fa-envelope social-icon"></i></a>
+        </div>
+        <p class="copyright-text">© Copyright 2020 TinDog</p>
 
     </footer>
 
